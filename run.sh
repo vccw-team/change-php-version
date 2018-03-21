@@ -4,7 +4,7 @@ set -ex
 
 PHP_VERSION=${1-"7.0"}
 
-if [[ "7.0" !== "$PHP_VERSION" ]]; then
+if [[ "7.0" ne "$PHP_VERSION" ]]; then
   sudo apt update -y
 
   sudo apt install \
